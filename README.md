@@ -2,9 +2,7 @@
 
 Note: this is a repository of Employee Management System Frontend. the repository of the backend is available here: https://github.com/fenil29/employee-management-system-backend-node
 
--------------
-
-Website: https://employee-management-fk.netlify.com
+------------
 
 -------------
 
@@ -47,9 +45,6 @@ The different part or module of this project is as follows:
 * create .env file in your backend project 
 Example of .env file (this file is present with the name .envexample):
 ```
-PORT=4000
-DATABASEURL=mongodb+srv://username:password@cluster0-oazgl.mongodb.net/test?retryWrites=true
-JWTKEY=set_your_jwt_key
 ```
 (note: Here I am using mondo DB atlas which provides a free cloud-based database so you can paste the URL provided by the atlas or you can install your own database)
 * run both projects with the `npm start` command
